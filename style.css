@@ -23,10 +23,6 @@
 	margin-bottom: 10px;
 }
 
-.shift {
-	margin-left: 20px;
-}
-
 /*navbar*/
 .navbar {
 	z-index: 2;
@@ -65,4 +61,74 @@
 	font-size: 18px;
 	font-weight: 500;
 	margin-left: 25px;
+}
+
+.top_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.vid1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 2%;
+	width: 30%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.vid2 {
+	right: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 30%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.information {
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	text-align: justify;
+	color: #00274c;
+	width: 63%;
+	right: 2%;
+}
+
+.shift {
+	margin-left: 20px;
+}
+
+.mid_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.board {
+	left: 2%;
+	width: 34%;
+	position: relative;
+}
+
+.circuit {
+	display: flex;
+	right: 2%;
+	width: 61%;
+	position: relative;
 }
